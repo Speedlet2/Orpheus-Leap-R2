@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "Orpheus Leap Micro-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Orpheus Leap Micro-eagle-import.kicad_sym")(options "")(descr ""))
-)
