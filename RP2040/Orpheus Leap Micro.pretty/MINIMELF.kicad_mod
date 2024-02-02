@@ -1,0 +1,53 @@
+(footprint "MINIMELF" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Mini Melf Diode</b>")
+  (fp_text reference "REF**" (at -1.651 -1.143) (layer "F.SilkS")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp 770f921c-e6d7-42f7-9ca9-377ea181c46c)
+  )
+  (fp_text value "MINIMELF" (at -1.651 2.413) (layer "F.Fab")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp f2393c9b-93fe-473d-9579-814abb1fda2d)
+  )
+  (fp_line (start -0.5 0) (end 0.5 0.5)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 85506875-d8cc-4a12-ae3b-17227fcd8a24))
+  (fp_line (start 0.5 -0.5) (end -0.5 0)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp e8c05d58-723c-4f3f-a6aa-3ab5ebf7a694))
+  (fp_line (start 0.5 0.5) (end 0.5 -0.5)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp f2f3cdca-ef58-4c0a-91aa-178306e8c9ca))
+  (fp_poly
+    (pts
+      (xy -0.8636 0.7874)
+      (xy -0.254 0.7874)
+      (xy -0.254 -0.7874)
+      (xy -0.8636 -0.7874)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp 85759b42-62f1-4b42-b398-3eb9d769a0df))
+  (fp_line (start 1.3208 -0.7874) (end -1.3208 -0.7874)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 46935ed8-b4bb-4cb5-891a-51d356dd3281))
+  (fp_line (start 1.3208 0.7874) (end -1.3208 0.7874)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp db7fd725-cf69-4e93-857a-1cf49996a959))
+  (fp_poly
+    (pts
+      (xy -1.8542 0.8636)
+      (xy -1.2954 0.8636)
+      (xy -1.2954 -0.8636)
+      (xy -1.8542 -0.8636)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp a69148b1-80a2-4f64-a0c2-7a2415c8a0b5))
+  (fp_poly
+    (pts
+      (xy 1.2954 0.8636)
+      (xy 1.8542 0.8636)
+      (xy 1.8542 -0.8636)
+      (xy 1.2954 -0.8636)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp aa421fe9-4fc2-4159-942e-6c32b5f05d90))
+  (pad "A" smd rect (at 1.7 0) (size 1.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp c1e2fa96-14f2-4533-89ca-9a0a5758a202))
+  (pad "C" smd rect (at -1.7 0) (size 1.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp c019a564-171e-4452-8cb8-5d9175a34453))
+)
